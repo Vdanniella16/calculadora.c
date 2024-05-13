@@ -252,11 +252,4 @@ void demoraMs(int n){
         for(i = 0; i < 240; i++);
 }
 
-void calculadora(){
-    if (funcion == 'A')
-        operacion = primer_digito + segundo_digito;
-    if(funcion == 'B')
-        operacion = primer_digito - segundo_digito;
-    if (funcion =='C')
-        operacion = primer_digito * segundo_digito;
-}
+
